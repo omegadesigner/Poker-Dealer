@@ -12,6 +12,66 @@ This is a very basic poker game, the card deck API will create a new deck and sh
 
 [Card Deck API Documentation](http://deckofcardsapi.com/)
 
+```
+{
+    "success": true,
+    "deck_id": "1n6meszz9aas",
+    "cards": [
+        {
+            "code": "QH",
+            "image": "https://deckofcardsapi.com/static/img/QH.png",
+            "images": {
+                "svg": "https://deckofcardsapi.com/static/img/QH.svg",
+                "png": "https://deckofcardsapi.com/static/img/QH.png"
+            },
+            "value": "QUEEN",
+            "suit": "HEARTS"
+        },
+        {
+            "code": "JC",
+            "image": "https://deckofcardsapi.com/static/img/JC.png",
+            "images": {
+                "svg": "https://deckofcardsapi.com/static/img/JC.svg",
+                "png": "https://deckofcardsapi.com/static/img/JC.png"
+            },
+            "value": "JACK",
+            "suit": "CLUBS"
+        },
+        {
+            "code": "KH",
+            "image": "https://deckofcardsapi.com/static/img/KH.png",
+            "images": {
+                "svg": "https://deckofcardsapi.com/static/img/KH.svg",
+                "png": "https://deckofcardsapi.com/static/img/KH.png"
+            },
+            "value": "KING",
+            "suit": "HEARTS"
+        },
+        {
+            "code": "9C",
+            "image": "https://deckofcardsapi.com/static/img/9C.png",
+            "images": {
+                "svg": "https://deckofcardsapi.com/static/img/9C.svg",
+                "png": "https://deckofcardsapi.com/static/img/9C.png"
+            },
+            "value": "9",
+            "suit": "CLUBS"
+        },
+        {
+            "code": "6S",
+            "image": "https://deckofcardsapi.com/static/img/6S.png",
+            "images": {
+                "svg": "https://deckofcardsapi.com/static/img/6S.svg",
+                "png": "https://deckofcardsapi.com/static/img/6S.png"
+            },
+            "value": "6",
+            "suit": "SPADES"
+        }
+    ],
+    "remaining": 47
+}
+```
+
 ## Wireframes
 
 [Wireframe Decktop](https://i.imgur.com/FqyOf76.jpg)
