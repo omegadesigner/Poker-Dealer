@@ -1,0 +1,102 @@
+
+/*----------------------------------------*/
+#banner
+{
+    display: flex;
+    margin: 0 auto;
+    margin: 10px;
+    border: 2px solid black;
+}
+.logo
+{
+    display: flex;
+    margin: 0 auto;
+    margin: 10px;
+    border: 2px solid black;
+}
+.gameTitle
+{
+    display: flex;
+    margin: 0 auto;
+    margin: 10px;
+    border: 2px solid black;
+}
+/*----------------------------------------*/
+#gameScreen
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin: 20px;
+    border: 2px solid black;
+}
+/*----------------------------------------*/
+#infoScreen
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+}
+.winLoss
+{
+    display: flex;
+    margin: 0 auto;
+    margin: 10px;
+    border: 2px solid black;
+}
+.winningHand
+{
+    display: flex;
+    margin: 0 auto;
+    margin: 10px;
+    border: 2px solid black;
+}
+.playAgain
+{
+    display: flex;
+    margin: 0 auto;
+    margin: 10px;
+    border: 2px solid black;
+}
+/*----------------------------------------*/
+#playerHand
+{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    margin: 10px;
+    border: 2px solid black;
+}
+.cardsContainer
+{
+    display: flex;
+    margin: 0 auto;
+    margin: 10px;
+    border: 2px solid black;
+}
+.card
+{
+    display: flex;
+    margin: 0 auto;
+    margin: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 2px solid black;
+}
+.handDisplay
+{
+    display: flex;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+/*----------------------------------------*/
+#footer
+{
+    display: flex;
+    margin: 0 auto;
+    margin: 10px;
+    border: 2px solid black;
+}
