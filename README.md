@@ -6,7 +6,7 @@
 
 ## Project Description
 
-
+This is a very basic poker game, the card deck API will create a new deck and shuffle it. The player and their virtual opponent will be dealt five cards each. The two hands will then be compared to determine a winner and display the winning hand on screen for the player. The player will then be asked if they wish to play again.
 
 ## API and Data Sample
 
@@ -60,7 +60,7 @@
 | Styling Visuals of player hand | H | 3hrs| NA | NA |
 | Styling for mobile version | H | 3hrs| NA | NA |
 | Card Shuffle and Deal Visuals | H | 3hrs| NA | NA |
-| Total | H | 21hrs| NA | NA |
+| Total | H | 22hrs| NA | NA |
 
 ## Code Snippet
 
