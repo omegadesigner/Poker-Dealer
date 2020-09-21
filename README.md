@@ -118,8 +118,8 @@ This is a very basic poker game, the card deck API will create a new deck and sh
 | Creating Logic Tree to reference score | H | 3hrs| NA | NA |
 | Comparing player and opponant hand to determine winner | H | 6hrs| NA | NA |
 | Styling Visuals of player hand | H | 3hrs| NA | NA |
-| Styling for mobile version | H | 3hrs| NA | NA |
-| Card Shuffle and Deal Visuals | H | 3hrs| NA | NA |
+| Styling for mobile version | M | 3hrs| NA | NA |
+| Card Shuffle and Deal Visuals | L | 3hrs| NA | NA |
 | Total | H | 22hrs| NA | NA |
 
 ## Code Snippet
