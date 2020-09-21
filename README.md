@@ -74,8 +74,8 @@ This is a very basic poker game, the card deck API will create a new deck and sh
 
 ## Wireframes
 
-[Wireframe Decktop](https://i.imgur.com/FqyOf76.jpg)
-[Wireframe Mobile](https://i.imgur.com/S3CZzbU.jpg)
+![Wireframe Decktop](https://i.imgur.com/FqyOf76.jpg)
+![Wireframe Mobile](https://i.imgur.com/S3CZzbU.jpg)
 
 ### MVP/PostMVP
 
@@ -107,7 +107,7 @@ This is a very basic poker game, the card deck API will create a new deck and sh
 
 ## Priority Matrix
 
-[Priority Matrix](https://i.imgur.com/SFkijDi.jpg)
+![Priority Matrix](https://i.imgur.com/SFkijDi.jpg)
 
 ## Timeframes
 
