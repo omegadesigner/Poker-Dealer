@@ -1,102 +1,260 @@
-
+body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 95vh;
+    background-color: burlywood;
+    min-width: 500px;
+}
 /*----------------------------------------*/
 #banner
 {
     display: flex;
     margin: 0 auto;
     margin: 10px;
+    background-color: darkslategray;
+    height: 20%;
     border: 2px solid black;
+    border-radius: 12px;
 }
 .logo
 {
     display: flex;
     margin: 0 auto;
-    margin: 10px;
-    border: 2px solid black;
+    margin: 1%;
+    background-color: goldenrod;
+    width: 15%;
+    min-width: 150px;
+    border: 3px solid goldenrod;
+    border-radius: 30px;
+}
+.logoPic
+{
+    display: flex;
+    border-radius: 30px;
 }
 .gameTitle
 {
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
-    margin: 10px;
-    border: 2px solid black;
+    margin: 1%;
+    background-color: green;
+    width: 85%;
+    border: 2px solid goldenrod;
+    border-radius: 12px;
+    text-align: center;
+    text-shadow: 2px 2px goldenrod;
+    text-decoration: underline overline dotted black;
+    font-size: 700%;
+    font-style: italic;
 }
 /*----------------------------------------*/
 #gameScreen
 {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: darkslategray;
     margin: 0 auto;
     margin: 20px;
+    height: 75%;
     border: 2px solid black;
+    border-radius: 12px;
 }
 /*----------------------------------------*/
 #infoScreen
 {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    background-image: url(https://i.imgur.com/OJTk9Sy.jpg);
     margin: 0 auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border: 2px solid black;
+    margin: 10px;
+    width: 20%;
+    height: 30%;
+    border: 2px solid burlywood;
+    border-radius: 12px;
 }
 .winLoss
 {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
     margin: 0 auto;
     margin: 10px;
-    border: 2px solid black;
+    border: 2px solid goldenrod;
+    border-radius: 12px;
+    height: 20%;
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: 140%;
+    text-align: center;
+    text-shadow: 1px 1px goldenrod;
 }
 .winningHand
 {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
     margin: 0 auto;
     margin: 10px;
-    border: 2px solid black;
+    border: 2px solid goldenrod;
+    border-radius: 12px;
+    height: 25%;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .playAgain
 {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
     margin: 0 auto;
     margin: 10px;
-    border: 2px solid black;
+    border: 2px solid goldenrod;
+    border-radius: 12px;
+    height: 20%;
+    
+}
+#playButton
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    border-radius: 12px;
+    width: 105%;
+    height: 105%;
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: 140%;
+    text-align: center;
+    text-shadow: 1px 1px goldenrod;
 }
 /*----------------------------------------*/
 #playerHand
 {
     display: flex;
+    align-items: center;
     flex-direction: row;
     margin: 0 auto;
     margin: 10px;
-    border: 2px solid black;
+    width: 95%;
+    max-height: 80%;
+    min-height: 50%;
+    background-image: url(https://i.imgur.com/OJTk9Sy.jpg);
+    background-size: 100%;
+    border: 2px solid burlywood;
+    border-radius: 12px;
 }
 .cardsContainer
 {
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    background-color: green;
     margin: 0 auto;
-    margin: 10px;
-    border: 2px solid black;
+    margin: 1%;
+    border: 2px solid goldenrod;
+    border-radius: 12px;
+    width: 85%;
+    min-height: 80%;
+    max-height: 95%;
 }
 .card
 {
     display: flex;
-    margin: 0 auto;
-    margin: 10px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    border: 2px solid black;
+    width: 18%;
+    min-width: 50px;
+    margin: 2px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+img
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
 }
 .handDisplay
 {
     display: flex;
-    margin: 0 auto;
-    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    margin: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border: 2px solid goldenrod;
+    border-radius: 12px;
+    width: 15%;
+    min-width: 80px;
+    height: 50%;
+}
+p
+{
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: 150%;
+    text-align: center;
 }
 /*----------------------------------------*/
 #footer
 {
     display: flex;
-    margin: 0 auto;
-    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslategray;
+    height: 5%;
     border: 2px solid black;
+    border-radius: 12px;
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: 140%;
+    text-align: center;
+    text-shadow: 1px 1px goldenrod;
+}
+@media only screen and (max-width: 850px)
+{
+    .gameTitle
+    {
+        font-size: 500%;
+    }
+    #infoScreen
+    {
+        width: 40%;
+    }
+    #playerHand
+    {
+        height: 80%;
+    }
+}
+@media only screen and (max-width: 660px)
+{
+    .logo
+    {
+        display: none;
+    }
+    .gameTitle
+    {
+        width: 100%;
+    }
+    #infoScreen
+    {
+        width: 50%;
+        height: 30%;
+    }
+    .card
+    {
+        width: 30%;
+    }
 }
