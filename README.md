@@ -2,7 +2,7 @@
 
 ## Poker Dealer
 
-[Poker Dealer Github](https://github.com/omegadesigner/Poker-Dealer)
+[Poker Dealer Github](https://omegadesigner.github.io/Poker-Dealer/)
 
 ## Project Description
 
@@ -102,7 +102,7 @@ This is a very basic poker game, the card deck API will create a new deck and sh
 |Sept 21| Project Approval | Complete
 |Sept 22| Core Application Structure (HTML, CSS, etc.) | Complete
 |Sept 23| MVP | Complete
-|Sept 24| Post MVP/Styling | Incomplete
+|Sept 24| Post MVP/Styling | Complete
 |Sept 25| Presentations | Incomplete
 
 ## Priority Matrix
@@ -151,5 +151,5 @@ function hasLikeKinds(duplicateTracker)
 
 ## Change Log
 
-No changes to project as of 9/20/20.
-Reached MVP evening of 9/24/20
+-No changes to project as of 9/20/20.
+-Reached MVP evening of 9/24/20.
