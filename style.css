@@ -89,7 +89,7 @@ body
     margin: 10px;
     border: 2px solid goldenrod;
     border-radius: 12px;
-    height: 20%;
+    height: 25%;
     font-style: oblique;
     font-weight: bolder;
     font-size: 140%;
@@ -106,7 +106,7 @@ body
     margin: 10px;
     border: 2px solid goldenrod;
     border-radius: 12px;
-    height: 25%;
+    height: 30%;
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
@@ -121,7 +121,7 @@ body
     margin: 10px;
     border: 2px solid goldenrod;
     border-radius: 12px;
-    height: 20%;
+    height: 25%;
     
 }
 #playButton
@@ -135,7 +135,7 @@ body
     height: 105%;
     font-style: oblique;
     font-weight: bolder;
-    font-size: 140%;
+    font-size: 130%;
     text-align: center;
     text-shadow: 1px 1px goldenrod;
 }

@@ -581,8 +581,8 @@ function determineHand(handProps)
     }
     else
     {
-        highCard = (`${handProps.kicker[0].value},`+
-        ` ${handProps.kicker[1].value},`+ 
+        highCard = (`${handProps.kicker[0].value}, `+
+        `${handProps.kicker[1].value}, `+ 
         `${handProps.kicker[2].value}, High`);
         handProps.handRank = (100 + 
             handProps.kicker[0].numValue +
@@ -591,7 +591,6 @@ function determineHand(handProps)
             handProps.kicker[3].numValue +
             handProps.kicker[4].numValue);
     }
-
     name = `${straightName}${flushName}${pairName}${highCard}`;
     return name;
 }
